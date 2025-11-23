@@ -6,3 +6,54 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.container {
+  background-color: #CFD2CD;
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e7e7e7;
+}
+
+button:hover {
+  background-color: #c2c1c1;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 90vw;
+        padding: 32px 16px;
+    }
+    button {
+        padding: 14px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+    margin-top: 12px;
+    border-radius: 12px;
+  }
+  body {
+    font-size: 15px;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1rem;
+  }
+}

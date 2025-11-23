@@ -1,0 +1,66 @@
+.main-title {
+    font-size: 35px;
+    color: #022832;
+}
+
+.main-title:hover {
+    transition: 0.3s ease-in;
+    color: #058fb6;
+}
+.about {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 5vh;
+    color: #022832;
+}
+
+p {
+    line-height: 1.5;
+}
+
+p:hover {
+    color: #016c9e;
+    transition: 0.3s ease-in-out
+}
+
+.about-text {
+    margin-left: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 1.3rem;
+  }
+
+  .about {
+    flex-direction: column;
+    width: 98vw;
+    align-items: center;
+  }
+  .about-image {
+    width: 90vw;
+    max-width: 250px;
+    margin-top: 20px;
+  }
+  .about-text {
+    margin-top: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 70vw;
+    margin-bottom: 20px;
+  }
+}
