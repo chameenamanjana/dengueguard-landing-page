@@ -1,12 +1,13 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-slate-300 border-t border-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          <div className="space-y-4">
-            <div className="flex items-center gap-2 text-white font-bold text-xl">
+    <footer className="footer">
+      <div className="footer-container">
+        <div className="footer-grid">
+          <div className="footer-column brand-column">
+            <div className="brand-logo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -15,81 +16,61 @@ const Footer = () => {
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-8 h-8 text-blue-500"
+                className="brand-icon"
               >
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                 <path d="M12 8v4" />
                 <path d="M12 16h.01" />
               </svg>
               <span>
-                Dengue<span className="text-blue-500">Guard</span>
+                Dengue<span className="highlight-blue">Guard</span>
               </span>
             </div>
-            <p className="text-sm text-slate-400 leading-relaxed">
+            <p className="brand-description">
               Transforming dengue mitigation from a reactive to a proactive
               approach using AI and community-driven data.
             </p>
-            <div className="pt-2">
-              <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">
-                Project CS-109
-              </span>
+            <div className="brand-badge-wrapper">
+              <span className="brand-badge">Project CS-109</span>
             </div>
           </div>
 
-          <div>
-            <h3 className="text-white font-semibold mb-4">Platform</h3>
-            <ul className="space-y-3">
+          <div className="footer-column">
+            <h3 className="footer-heading">Platform</h3>
+            <ul className="footer-links">
               <li>
-                <a
-                  href="#heatmap"
-                  className="hover:text-blue-400 transition-colors duration-200 flex items-center gap-2"
-                >
-                  <span>Live Heatmap</span>
+                <a href="#heatmap" className="footer-link">
+                  Live Heatmap
                 </a>
               </li>
               <li>
-                <a
-                  href="#report"
-                  className="hover:text-blue-400 transition-colors duration-200"
-                >
+                <a href="#report" className="footer-link">
                   Report Incident
                 </a>
               </li>
               <li>
-                <a
-                  href="#chatbot"
-                  className="hover:text-blue-400 transition-colors duration-200"
-                >
+                <a href="#chatbot" className="footer-link">
                   AI Assistant
                 </a>
               </li>
               <li>
-                <a
-                  href="#moh-login"
-                  className="hover:text-blue-400 transition-colors duration-200"
-                >
+                <a href="#moh-login" className="footer-link">
                   MOH Dashboard
                 </a>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-white font-semibold mb-4">Resources</h3>
-            <ul className="space-y-3">
+          <div className="footer-column">
+            <h3 className="footer-heading">Resources</h3>
+            <ul className="footer-links">
               <li>
-                <a
-                  href="#prevention"
-                  className="hover:text-blue-400 transition-colors duration-200"
-                >
+                <a href="#prevention" className="footer-link">
                   Prevention Tips
                 </a>
               </li>
               <li>
-                <a
-                  href="#education"
-                  className="hover:text-blue-400 transition-colors duration-200"
-                >
+                <a href="#education" className="footer-link">
                   Educational Videos
                 </a>
               </li>
@@ -98,7 +79,7 @@ const Footer = () => {
                   href="https://www.dengue.health.gov.lk"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-400 transition-colors duration-200"
+                  className="footer-link"
                 >
                   National Dengue Unit
                 </a>
@@ -106,12 +87,12 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-white font-semibold mb-4">Contact Team</h3>
-            <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-3">
+          <div className="footer-column">
+            <h3 className="footer-heading">Contact Team</h3>
+            <ul className="footer-contact-list">
+              <li>
                 <svg
-                  className="w-5 h-5 text-blue-500 shrink-0 mt-0.5"
+                  className="contact-icon"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -125,9 +106,9 @@ const Footer = () => {
                 </svg>
                 <span>contact@dengueguard.lk</span>
               </li>
-              <li className="flex items-start gap-3">
+              <li>
                 <svg
-                  className="w-5 h-5 text-blue-500 shrink-0 mt-0.5"
+                  className="contact-icon"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -149,18 +130,15 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-slate-500">
+        <div className="footer-bottom">
+          <p className="copyright">
             &copy; 2025 DengueGuard (Group CS-109). All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-slate-500">
-            <a
-              href="#privacy"
-              className="hover:text-blue-400 transition-colors"
-            >
+          <div className="legal-links">
+            <a href="#privacy" className="footer-link">
               Privacy Policy
             </a>
-            <a href="#terms" className="hover:text-blue-400 transition-colors">
+            <a href="#terms" className="footer-link">
               Terms of Service
             </a>
           </div>
