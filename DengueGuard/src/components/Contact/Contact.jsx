@@ -33,8 +33,20 @@ function Contact() {
   };
   return (
     <>
-      <div className="container">
-        <h1 id="contact">Get In Touch</h1>
+      <br></br>
+      <h1 id="contact">Get In Touch</h1>
+      <div className="main">
+        <div className="additional-info">
+          <p>
+            <img src={location_icon} /> 57, Ramakrishna Road, Colombo 06, Sri
+            Lanka
+          </p>
+          <br></br>
+          <p>
+            <img src={mail_icon} /> dengueguard109@gmail.com
+          </p>
+        </div>
+
         <div className="contact">
           <div className="contact-col">
             <form onSubmit={onSubmit}>
@@ -73,6 +85,9 @@ function Contact() {
           </div>
         </div>
       </div>
+
+      <br></br>
+      <br></br>
     </>
   );
 }

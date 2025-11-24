@@ -7,8 +7,6 @@
 }
 
 .feature {
-    border: 2px solid #022832;
-    border-radius: 15px;
     padding: 20px;
     width: 300px;
     display: flex;
@@ -20,6 +18,8 @@
 .feature:hover {
     transform: translateY(-5px);
     background-color: #f4fbfd;
+    border-top: 2px solid #022832;
+
 }
 
 .feature h3 {

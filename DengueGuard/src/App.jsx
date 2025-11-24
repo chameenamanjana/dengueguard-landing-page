@@ -5,6 +5,7 @@ import './App.css'
 import Footer from './components/Footer/Footer'
 import Feature from './components/Features/Feature'
 import Contact from './components/Contact/Contact'
+import Team from './components/Team/Team'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <About/>
       <Feature/>
+      <Team/>
       <Contact/>
       <Footer/>
     </>

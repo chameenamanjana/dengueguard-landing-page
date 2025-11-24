@@ -10,6 +10,7 @@ function About() {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
       <h2 className="main-heading">About Us</h2>
       <div className="container">
         <div className="about">
