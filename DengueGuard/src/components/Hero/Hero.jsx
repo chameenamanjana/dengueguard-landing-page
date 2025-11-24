@@ -18,11 +18,11 @@ const App = () => {
             </p>
             
             <div className="hero-stats">
-              <div className="avatars">
+                <div className="avatars">
                 <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=64&h=64" alt="User" />
                 <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=64&h=64" alt="User" />
                 <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=64&h=64" alt="User" />
-                <img src="https://images.unsplash.com/photo-1521119989659-a83eee488058?auto=format&fit=crop&w=64&h=64" alt="User" />
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=64&h=64" alt="User" />
               </div>
               <div className="rating-text">
                 <div className="rating-stars">
@@ -47,7 +47,7 @@ const App = () => {
           <div className="hero-image-wrapper">
             <div className="hero-image">
               <img
-                src="https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=1000&auto=format&fit=crop"
                 alt="Smart City Data Analysis"
               />
             </div>
