@@ -5,7 +5,7 @@ function Team() {
   return (
     <>
       <div className="container">
-        <h1 className="main-heading">Team</h1>
+        <h1 className="team-heading">Team</h1>
         <div className="team" id="team">
           <div className="team-member">
             <div className="member-img">

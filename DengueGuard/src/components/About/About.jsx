@@ -3,15 +3,6 @@ import "./about.css";
 function About() {
   return (
     <>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <h2 className="main-heading">About Us</h2>
       <div className="container">
         <div className="about">
           <div className="about-text">
@@ -30,13 +21,7 @@ function About() {
               designed to transform dengue mitigation from a reactive to a
               proactive approach.
             </p>
-            <br></br>
-            <p> DengueGuard provides the ability to
-              citizens to report dengue breeding grounds and suspected symptoms,
-              access heatmaps and engage with an AI chatbot for prevention
-              advice. Health Officers utilises a web dashboard to manage citizen
-              reports, view heatmap and send special announcements to citizens.
-            </p>
+
           </div>
         </div>
       </div>

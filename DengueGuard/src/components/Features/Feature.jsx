@@ -9,7 +9,7 @@ import './features.css'
 function Feature() {
   return (
     <div className="container">
-        <h1 className="main-heading">Features</h1>
+        <h1 className="features-heading">Features</h1>
       <div className="features" id='features'>
         
         {/* Card 1: Breeding Sites */}

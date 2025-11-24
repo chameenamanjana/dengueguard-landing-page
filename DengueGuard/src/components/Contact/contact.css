@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  background-color: #cdcfd2;
+  background-color: var(--bg-hero);
   border-radius: 20px;
   width: 80%;
   margin: auto;
@@ -16,6 +16,14 @@
     justify-content: center;
     padding: 40px;
     border-radius: 20px;
+}
+
+label {
+  color: white;
+}
+
+.contact-heading {
+  color: #2536eb;
 }
 
 .contact-col h3 {
@@ -77,14 +85,18 @@ h1 {
 }
 
 .additional-info p{
-  margin-left: 20px;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  color: var(--text-muted);
 }
 .additional-info img {
-  width: 18px;
+  width: 35px;
+  margin-right: 20px;
+  margin-top: 0px;
 }
-
+.additional-info .infor {
+  display: flex;
+}
 
 
 @media (max-width: 600px) {

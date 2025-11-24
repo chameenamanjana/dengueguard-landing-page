@@ -20,14 +20,15 @@
     color: #022832;
 }
 
-p {
+.about p {
     line-height: 1.5;
+    font-size: 18px;
 }
 
-p:hover {
-    color: #016c9e;
-    transition: 0.3s ease-in-out
+.about p:hover {
+  color: #058fb6;
 }
+
 
 .about-text {
     margin-left: 25px;

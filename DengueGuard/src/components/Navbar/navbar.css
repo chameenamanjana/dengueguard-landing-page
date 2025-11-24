@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #cdcfd2;
-  color: #022831;
-  padding: 20px;
+  background-color: #1e293b;
+  color: #004555;
+  padding: 4px;
   position: fixed;
-  top: 30px;
+  top: 20px;
   left: 100px;
   width: 87%;
   box-sizing: border-box;
@@ -23,7 +23,7 @@
 
 .navlinks a {
   padding: 15px;
-  color: #022831;
+  color: #cfcfcf;
   font-weight: bold;
   text-decoration: none;
 }
@@ -32,9 +32,15 @@
   color: #0081bd;
 }
 
-.navicon {
+.nav-icon {
+  color: #2536eb;
+  margin-left: 50px;
   width: 100px;
   border-radius: 50%;
+}
+
+.nav-icon span{
+  color: white;
 }
 
 @media (max-width: 600px) {

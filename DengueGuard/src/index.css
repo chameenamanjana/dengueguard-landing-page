@@ -7,17 +7,31 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+          --primary: #2563eb;
+          --primary-dark: #1d4ed8;
+          --text-main: #0f172a;
+          --text-muted: #dbdbdb;
+          --bg-surface: #ffffff;
+          --bg-hero: #222831;
+          --star-color: #f59e0b;
+        }
+
 body {
-  background-color: #f8fafc;
+  background-color: #222831;
 }
 
 p {
-  color: #64748b;
+  color: var(--bg-surface);
+}
+
+h1 {
+  color: var(--primary-dark);
 }
 
 
 .container {
-  background-color: #f8fafc;
+  background-color: #222831;
   border-radius: 20px;
   width: 70%;
   margin: auto;

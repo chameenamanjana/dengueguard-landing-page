@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <div className="nav-icon">
+        <div >
           <br></br>
-          <h1>DengueGuard</h1>
+          <h1 className="nav-icon"><span>Dengue</span>Guard</h1>
         </div>
 
         <div className="navlinks">

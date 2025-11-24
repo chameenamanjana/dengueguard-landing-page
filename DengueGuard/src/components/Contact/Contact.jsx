@@ -1,10 +1,7 @@
 import React from "react";
 import "./contact.css";
-import msg_icon from "../../assets/msg-icon.png";
-import mail_icon from "../../assets/mail-icon.png";
-import phone_icon from "../../assets/phone-icon.png";
-import location_icon from "../../assets/location-icon.png";
-import white_arrow from "../../assets/white-arrow.png";
+import mail_icon from "../../assets/mail.svg";
+import location_icon from "../../assets/location.svg";
 
 function Contact() {
   const [result, setResult] = React.useState("");
@@ -34,17 +31,22 @@ function Contact() {
   return (
     <>
       <br></br>
-      <h1 id="contact">Get In Touch</h1>
+      <h1 id="contact" className="contact-heading">
+        Get In Touch
+      </h1>
       <div className="main">
         <div className="additional-info">
-          <p>
-            <img src={location_icon} /> 57, Ramakrishna Road, Colombo 06, Sri
-            Lanka
-          </p>
+          <div className="infor">
+            <img src={location_icon} />
+            <p>57, Ramakrishna Road, Colombo 06, Sri Lanka</p>
+          </div>
           <br></br>
-          <p>
-            <img src={mail_icon} /> dengueguard109@gmail.com
-          </p>
+
+          <div className="infor">
+            <img src={mail_icon} />
+            <p>dengueguard109@gmail.com</p>
+          </div>
+          
         </div>
 
         <div className="contact">
