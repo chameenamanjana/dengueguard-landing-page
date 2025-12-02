@@ -35,19 +35,7 @@ function Contact() {
         Get In Touch
       </h1>
       <div className="main">
-        <div className="additional-info">
-          <div className="infor">
-            <img src={location_icon} />
-            <p>57, Ramakrishna Road, Colombo 06, Sri Lanka</p>
-          </div>
-          <br></br>
-
-          <div className="infor">
-            <img src={mail_icon} />
-            <p>dengueguard109@gmail.com</p>
-          </div>
-          
-        </div>
+        
 
         <div className="contact">
           <div className="contact-col">

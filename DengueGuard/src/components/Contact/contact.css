@@ -14,8 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px;
-    border-radius: 20px;
 }
 
 label {
@@ -23,7 +21,7 @@ label {
 }
 
 .contact-heading {
-  color: #2536eb;
+  color: #2b5bfa;
 }
 
 .contact-col h3 {

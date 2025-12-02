@@ -1,10 +1,15 @@
 import "./about.css";
+import mosq2 from "../../assets/mosq2.jpg"
 
 function About() {
   return (
     <>
       <div className="container">
         <div className="about">
+          <div className="about-img">
+            <img src={mosq2}/>
+          </div>
+          
           <div className="about-text">
             <h2 className="main-title">What is DengueGuard?</h2>
             <br></br>
@@ -23,6 +28,8 @@ function About() {
             </p>
 
           </div>
+
+          
         </div>
       </div>
     </>

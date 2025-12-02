@@ -1,13 +1,12 @@
 .team {
-    margin-left: 100px;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
+    gap: 2.5rem;
 }
 
 .team-heading {
     font-size: 35px;
-    color: #2536eb;
+    color: #2b5bfa;
 }
 
 .team-member {

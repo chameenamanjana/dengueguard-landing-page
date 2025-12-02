@@ -1,6 +1,6 @@
 .main-title {
     font-size: 35px;
-    color: #2536eb;
+    color: #2b5bfa;
 }
 
 .main-title:hover {
@@ -8,10 +8,10 @@
     color: #058fb6;
 }
 .about {
-    width: 70%;
-    margin: auto;
-    display: flex;
+    width: 100%;
+    display: grid;
     justify-content: center;
+    gap: 2rem;
 }
 
 .main-heading {
@@ -20,9 +20,21 @@
     color: #022832;
 }
 
+.about-img img {
+  width: 75rem;
+  border-radius: 20px;
+  margin: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.about-img img:hover {
+  transform: scale(1.05);
+}
+
 .about p {
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .about p:hover {
