@@ -31,9 +31,9 @@ function Contact() {
   return (
     <>
       <br></br>
-      <h1 id="contact" className="contact-heading">
+      <h2 id="contact" className="contact-heading">
         Get In Touch
-      </h1>
+      </h2>
       <div className="main">
         
 

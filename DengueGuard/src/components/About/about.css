@@ -1,5 +1,5 @@
-.main-title {
-    font-size: 35px;
+.about-text h2{
+    font-size: 40px;
     color: #2b5bfa;
 }
 
@@ -9,27 +9,23 @@
 }
 .about {
     width: 100%;
-    display: grid;
+    display: flex;
     justify-content: center;
     gap: 2rem;
 }
 
 .main-heading {
     text-align: center;
-    font-size: 5vh;
     color: #022832;
 }
 
 .about-img img {
-  width: 75rem;
+  width: 48rem;
   border-radius: 20px;
   margin: auto;
   transition: 0.3s ease-in-out;
 }
 
-.about-img img:hover {
-  transform: scale(1.05);
-}
 
 .about p {
     line-height: 1.5;
@@ -51,8 +47,8 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .main-title {
-    font-size: 1.3rem;
+  .about-text h2 {
+    font-size: 35px;
   }
 
   .about {
@@ -60,20 +56,21 @@ h1 {
     width: 98vw;
     align-items: center;
   }
-  .about-image {
-    width: 90vw;
-    max-width: 250px;
+  .about-img img {
+    max-width: 600px;
     margin-top: 20px;
+    margin-right: 35px;
   }
-  .about-text {
+  .about-text h2 {
     margin-top: 16px;
-    margin-left: 0;
+    margin-right: 70px;
     text-align: center;
   }
-  p {
-    font-size: 14px;
+  .about-text p {
+    font-size: 16px;
     line-height: 1.6;
     max-width: 70vw;
     margin-bottom: 20px;
+    margin-left: 30px;
   }
 }

@@ -6,9 +6,7 @@ function About() {
     <>
       <div className="container">
         <div className="about">
-          <div className="about-img">
-            <img src={mosq2}/>
-          </div>
+          
           
           <div className="about-text">
             <h2 className="main-title">What is DengueGuard?</h2>
@@ -22,11 +20,15 @@ function About() {
             </p>
             <br></br>
             <p>
-              DengueGuard, an AI powered and community driven web platform
+              DengueGuard is an AI powered and community driven web platform
               designed to transform dengue mitigation from a reactive to a
               proactive approach.
             </p>
 
+          </div>
+
+          <div className="about-img">
+            <img src={mosq2}/>
           </div>
 
           
