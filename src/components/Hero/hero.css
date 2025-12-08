@@ -123,5 +123,9 @@ body {
   .hero-image {
     transform: none;
   }
+
+  .hero-image img {
+    width: 70vw;
+  }
 }
 

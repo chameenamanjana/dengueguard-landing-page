@@ -64,11 +64,12 @@ button:hover {
 @media (max-width: 600px) {
   .container {
     padding: 20px;
-    margin-top: 12px;
+    margin-top: 10px;
     border-radius: 12px;
   }
   body {
     font-size: 15px;
+    text-align: center;
   }
 
   h1 {

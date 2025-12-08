@@ -28,7 +28,7 @@ function About() {
           </div>
 
           <div className="about-img">
-            <img src={mosq2}/>
+            <img src={mosq2} className="about-logo"/>
           </div>
 
           

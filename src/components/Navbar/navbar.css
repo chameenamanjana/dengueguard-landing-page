@@ -52,7 +52,7 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 16px;
+    padding: 20px;
   }
 
   .nav-icon {
@@ -60,10 +60,9 @@
   }
 
   .navlinks {
-    width: 100%;
+    width: 72%;
     justify-content: space-between;
-    gap: 8px;
-    flex-wrap: wrap;
+    gap: 15px;
   }
 
   .navlinks a {
@@ -79,7 +78,7 @@
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    width: 87%;
+    width: 75%;
     border-radius: 20px;
   }
 
