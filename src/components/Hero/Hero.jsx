@@ -4,7 +4,7 @@ import './hero.css'
 
 const Hero = () => {
   return (
-    <div className="app-wrapper">
+    <div className="app-wrapper" id="home">
       <header className="hero">
         <div className="hero-container">
           <div className="hero-content">

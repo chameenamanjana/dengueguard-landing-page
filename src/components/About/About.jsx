@@ -4,7 +4,7 @@ import mosq2 from "../../assets/mosq2.jpg"
 function About() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="about">
         <div className="about">
           
           

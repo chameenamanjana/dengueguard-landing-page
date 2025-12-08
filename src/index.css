@@ -80,3 +80,11 @@ button:hover {
     font-size: 1rem;
   }
 }
+
+html {
+  scroll-behavior: smooth; /
+}
+
+section, div[id] {
+  scroll-margin-top: 250px; 
+}
