@@ -16,7 +16,7 @@ body {
   justify-content: center;
   background-color: var(--bg-hero);
   background-size: 40px 40px;
-  padding: 2rem;
+  padding: 1rem;
   overflow: hidden;
 }
 
