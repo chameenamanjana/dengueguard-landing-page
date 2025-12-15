@@ -4,13 +4,14 @@ import chameen from "../../assets/chameen-img.jpg";
 import senuthmi from "../../assets/senthmi-img.jpg";
 import thinura from "../../assets/thinura-img.jpg";
 import dineli from "../../assets/dineli-img.jpg";
+import emika from "../../assets/emika-img.jpg";
 
 function Team() {
   const teamMembers = [
     {
       name: "Emika Sandina",
       role: "Team Leader/ Full Stack Developer",
-      imgLink: "",
+      imgLink: emika,
     },
     { name: "Dineli Ekanayake", role: "Full Stack Developer", imgLink: dineli },
     {
