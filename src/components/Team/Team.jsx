@@ -30,8 +30,9 @@ function Team() {
   ];
   return (
     <>
+    <h1 className="team-heading">Team</h1>
       <div className="container">
-        <h1 className="team-heading">Team</h1>
+        
         <div className="team" id="team">
           {teamMembers.map((member, index) => (
             <div className="team-member" key={index}>

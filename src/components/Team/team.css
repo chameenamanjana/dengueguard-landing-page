@@ -1,10 +1,9 @@
 .team {
   display: flex;
-  align-items: center;
   text-align: center;
   flex-wrap: wrap;
   gap: 30px;
-  margin-left: 85px;
+  justify-content: center;
 }
 
 .team-heading {
@@ -13,7 +12,7 @@
 }
 
 .team-member {
-  margin-top: 30px;
+  margin-top: 10px;
   width: 350px;
   display: flex;
   flex-direction: column;
@@ -40,14 +39,27 @@
 }
 
 @media (max-width: 600px) {
-    .team {
-        margin-left: 0px ;
-        flex-direction: column;
-        justify-content: center;
-    }
+  .team {
+    margin-left: 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .team-member {
-        width: 100%;
-        max-width: 350px;
-    }
+  .team-member {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media (min-width: 601px) {
+  .team-member {
+    flex: 1 1 30%; /* Allow items to grow, shrink, and take 30% of the container */
+    max-width: 350px; /* Ensure consistent maximum width */
+  }
+}
+
+@media (min-width: 1025px) {
+  .team-member {
+    flex: 1 1 30%; /* Same as above for larger screens */
+  }
 }
