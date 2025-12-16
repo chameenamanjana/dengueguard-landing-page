@@ -5,6 +5,7 @@ import senuthmi from "../../assets/senthmi-img.jpg";
 import thinura from "../../assets/thinura-img.jpg";
 import dineli from "../../assets/dineli-img.jpg";
 import emika from "../../assets/emika-img.jpg";
+import udith from "../../assets/udith-img.jpg";
 
 function Team() {
   const teamMembers = [
@@ -24,8 +25,8 @@ function Team() {
       role: "ML Engineer",
       imgLink: chameen,
     },
-    { name: "Thinura Uthsara", role: "ML Engineer", imgLink: thinura },
-    { name: "Udith Gamage", role: "ML Engineer", imgLink: "" },
+    { name: "Thinura Uthsara", role: "ML Engineer/Full Stack Developer", imgLink: thinura },
+    { name: "Udith Gamage", role: "ML Engineer", imgLink: udith },
   ];
   return (
     <>
