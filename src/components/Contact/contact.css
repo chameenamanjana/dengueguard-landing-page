@@ -1,6 +1,5 @@
 .main {
   display: flex;
-  background-color: var(--bg-hero);
   border-radius: 20px;
   width: 80%;
   margin: auto;
@@ -17,7 +16,7 @@
 }
 
 label {
-  color: white;
+  color: var(--text-main) ;
 }
 
 .contact-heading {
@@ -62,7 +61,7 @@ input {
 
 textarea {
   width: 600px;
-  background-color: #fafbff;
+  background-color: #f0f4ff;
   border: none;
   padding: 15px;
   margin-top: 10px;

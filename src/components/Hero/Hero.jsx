@@ -1,6 +1,6 @@
 import React from "react";
 import dengue from "../../assets/denguemos.jpg";
-import './hero.css'
+import "./hero.css";
 
 const Hero = () => {
   return (
@@ -8,22 +8,26 @@ const Hero = () => {
       <header className="hero">
         <div className="hero-container">
           <div className="hero-content">
-            
             <h1>
-              Proactive Defense.
-              <br />
-              <span>Smart Prediction.</span>
+              <span className="pd">Proactive Defense.</span>
+              <br></br>
+              <span className="sp">Smart Prediction.</span>
             </h1>
             <p>
-              Transforming dengue mitigation from a reactive to a proactive approach using AI and community-driven data.
+              Transforming dengue mitigation from a reactive to a proactive
+              approach using AI and community-driven data.
             </p>
+
+            <div className="hero-btn-container">
+              <button>
+                <h1>Coming Soon!</h1>
+              </button>
+            </div>
           </div>
 
           <div className="hero-image-wrapper">
             <div className="hero-image">
-              <img
-                src={dengue}
-              />
+              <img src={dengue} />
             </div>
           </div>
         </div>

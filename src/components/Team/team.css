@@ -19,7 +19,6 @@
 }
 
 .team-member h2 {
-  color: var(--bg-surface);
   font-size: 20px;
 }
 
@@ -32,6 +31,7 @@
   border-radius: 15px;
   transition: 0.3s ease-in-out;
   margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .member-img img:hover {
