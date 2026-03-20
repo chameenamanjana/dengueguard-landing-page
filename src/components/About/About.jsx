@@ -14,7 +14,7 @@ function About() {
           </p>
         </div>
 
-        {/* Grid of Boxes */}
+        
         <div className="about-grid">
           <div className="about-box">
             <h2>Introduction to DengueGuard</h2>

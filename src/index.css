@@ -14,7 +14,6 @@
   --text-muted: #dbdbdb;
   --bg-surface: #ffffff;
   --bg-hero: #222831;
-  --star-color: #f59e0b;
 }
 
 html[data-theme="dark"] {
@@ -24,7 +23,6 @@ html[data-theme="dark"] {
   --text-muted: #0f172a;
   --bg-surface: #222830;
   --bg-hero: #0f172a;
-  --star-color: #f59e0b;
 }
 
 body {
