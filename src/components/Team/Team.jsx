@@ -3,7 +3,7 @@ import tempIcon from "../../assets/symptomreport.svg";
 import chameen from "../../assets/chameen-img.jpg";
 import senuthmi from "../../assets/senthmi-img.jpg";
 import thinura from "../../assets/thinura-img.jpg";
-import dineli from "../../assets/dineli-img.png";
+import dineli from "../../assets/dineli-img.jpeg";
 import emika from "../../assets/emika-img.jpg";
 import udith from "../../assets/udith-img.png";
 
